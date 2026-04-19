@@ -17,3 +17,12 @@ bool Filelogparser::getNextline(std::string& line){
         return false;
     }
 }
+
+void Filelogparser::output(const std::string& line){
+    regex_ouput.open("C:/Users/Admin/igx@cipher/program/CPP/LogAnalyzer/logs/Output.log",std::ios::app);
+    if(!regex_ouput){
+        throw std::runtime_error("Failed to create file");
+    }
+    regex_ouput << line << std::endl;
+    regex_ouput.close();
+}
