@@ -20,7 +20,7 @@ int main(int argc , char* argv[]){
     //     std::cout << line << std::endl;
     // }
     Jsonparser json;
-    std::ifstream file("C:/Users/Admin/igx@cipher/program/CPP/LogAnalyzer/logs/JsonRegex.log");
+    std::ifstream file("C:/Users/Admin/Desktop/LogAnalyzer---C-/logs/Jsoninp.log");
     json.jsonparse(file);
     return 0;
 }
