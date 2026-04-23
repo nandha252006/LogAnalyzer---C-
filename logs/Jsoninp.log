@@ -1,0 +1,4 @@
+{"timestamp":"2026-04-23T11:00:00","level":"INFO","source":"API","message":"Request received"}
+{"timestamp":"2026-04-23T11:00:01","level":"ERROR","source":"API","message":"Invalid input data"}
+{"timestamp":"2026-04-23T11:00:05","level":"INFO","source":"DB","message":"Query executed successfully"}
+{"timestamp":"2026-04-23T11:00:07","level":"ERROR","source":"DB","message":"Timeout while fetching data"}
