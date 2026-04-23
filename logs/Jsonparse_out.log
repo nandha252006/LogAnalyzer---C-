@@ -1,0 +1,4 @@
+2026-04-23T11:00:00 INFO API Request received
+2026-04-23T11:00:01 ERROR API Invalid input data
+2026-04-23T11:00:05 INFO DB Query executed successfully
+2026-04-23T11:00:07 ERROR DB Timeout while fetching data
